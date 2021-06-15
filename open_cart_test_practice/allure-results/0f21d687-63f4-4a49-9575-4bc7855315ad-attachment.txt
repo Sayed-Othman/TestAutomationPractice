@@ -1,0 +1,18 @@
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-06-2021 22:50:55.0864 PM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @14-06-2021 22:50:55.0983 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @14-06-2021 22:50:55.0989 PM
+[ReportManager] Successfully Opened Google Chrome. @14-06-2021 22:51:05.0510 PM
+[ReportManager] Initial window size: (1200, 973) @14-06-2021 22:51:05.0543 PM
+[ReportManager] Window size after Toolkit: (1920, 1017) @14-06-2021 22:51:07.0091 PM
+[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1017) @14-06-2021 22:51:07.0310 PM
+[ReportManager] Initial Windows Size: 1920x1017 @14-06-2021 22:51:07.0318 PM
+[ReportManager] Current Windows Size after fullScreen: 1920x1080 @14-06-2021 22:51:07.0559 PM
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210614-225053", Target File: "/1623703868623_beforeMethod.gif"]. @14-06-2021 22:51:09.0695 PM
+[ReportManager] Browser Action [fullScreenWindow] successfully performed. With the following test data [<html><head></head><body></body></html>]. @14-06-2021 22:51:11.0547 PM
+[ReportManager] Window size after fullScreenWindow: (1920, 1080) @14-06-2021 22:51:11.0552 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)]. @14-06-2021 22:51:12.0343 PM
+[ReportManager] Target URL: [https://demo.opencart.com/] @14-06-2021 22:51:12.0344 PM
+[ReportManager] Initial URL: [data:,] @14-06-2021 22:51:12.0443 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://demo.opencart.com/]. @14-06-2021 22:51:17.0450 PM
+[ReportManager] Successfully created attachment [Video Recording - beforeMethod] @14-06-2021 22:51:24.0333 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @14-06-2021 22:51:24.0335 P

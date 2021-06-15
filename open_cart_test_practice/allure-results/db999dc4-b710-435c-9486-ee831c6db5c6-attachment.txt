@@ -1,0 +1,55 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @14-06-2021 22:50:55.0864 PM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome]. @14-06-2021 22:50:55.0983 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @14-06-2021 22:50:55.0989 PM
+[ReportManager] Successfully Opened Google Chrome. @14-06-2021 22:51:05.0510 PM
+[ReportManager] Initial window size: (1200, 973) @14-06-2021 22:51:05.0543 PM
+[ReportManager] Window size after Toolkit: (1920, 1017) @14-06-2021 22:51:07.0091 PM
+[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1017) @14-06-2021 22:51:07.0310 PM
+[ReportManager] Initial Windows Size: 1920x1017 @14-06-2021 22:51:07.0318 PM
+[ReportManager] Current Windows Size after fullScreen: 1920x1080 @14-06-2021 22:51:07.0559 PM
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210614-225053", Target File: "/1623703868623_beforeMethod.gif"]. @14-06-2021 22:51:09.0695 PM
+[ReportManager] Browser Action [fullScreenWindow] successfully performed. With the following test data [<html><head></head><body></body></html>]. @14-06-2021 22:51:11.0547 PM
+[ReportManager] Window size after fullScreenWindow: (1920, 1080) @14-06-2021 22:51:11.0552 PM
+[ReportManager] Browser Action [maximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)]. @14-06-2021 22:51:12.0343 PM
+[ReportManager] Target URL: [https://demo.opencart.com/] @14-06-2021 22:51:12.0344 PM
+[ReportManager] Initial URL: [data:,] @14-06-2021 22:51:12.0443 PM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://demo.opencart.com/]. @14-06-2021 22:51:17.0450 PM
+[ReportManager] Successfully created attachment [Video Recording - beforeMethod] @14-06-2021 22:51:24.0333 PM
+[ReportManager] Successfully created attachment [Animated Gif - beforeMethod] @14-06-2021 22:51:24.0335 P
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[open_cart_test_practice_first.Rgisteration.UserRegisteration]
+Test Description:	[ SignUp With valid Data]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210614-225053", Target File: "/1623703886262_UserRegisteration.gif"]. @14-06-2021 22:51:26.0393 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [My Account]. @14-06-2021 22:51:27.0848 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Register]. @14-06-2021 22:51:31.0257 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Sayed]. @14-06-2021 22:51:32.0539 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Othman]. @14-06-2021 22:51:33.0669 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [sayed1623703853814@gmail.com]. @14-06-2021 22:51:34.0928 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [123456]. @14-06-2021 22:51:36.0059 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [sa123456]. @14-06-2021 22:51:37.0173 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [sa123456]. @14-06-2021 22:51:38.0369 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [1]. @14-06-2021 22:51:40.0181 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Continue]. @14-06-2021 22:51:43.0998 PM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your Account Has Been Created!]. @14-06-2021 22:51:44.0794 PM
+[ReportManager] AssertEquals PASSED; Expected [Your Account Has Been Created!] and Actual [Your Account Has Been Created!]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @14-06-2021 22:51:44.0812 PM
+[ReportManager] Successfully created attachment [Video Recording - UserRegisteration] @14-06-2021 22:51:56.0082 PM
+[ReportManager] Successfully created attachment [Animated Gif - UserRegisteration] @14-06-2021 22:51:56.0102 P
+[ReportManager] Window is already closed and driver object is null. @14-06-2021 22:51:56.0149 PM
+[ReportManager] Browser Action [closeCurrentWindow] successfully performed. @14-06-2021 22:51:56.0178 PM
+[ReportManager] Successfully created attachment [Video Recording - afterMethod] @14-06-2021 22:51:56.0526 P
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @14-06-2021 22:51:57.0480 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
