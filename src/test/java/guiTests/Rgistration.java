@@ -20,8 +20,8 @@ public class Rgistration {
 	private  Registration_Page  registrationPage;
 	String email ="sayed"+ new Date().getTime() +"@gmail.com";
 
-	@Test(description = " SignUp With valid Data")
-	@Description("When the User Enters valid data on the sign up form and click continue Then he navigates to confirmation Page")
+	@Test(description = "Registration With valid Data")
+	@Description("When the user enters valid data on the sign up form and click continue, Then the user navigates to confirmation Page")
 	@Epic("Web GUI")
 	public void UserRegistration() {
 		homePage.NavigateToRegistrationPage();

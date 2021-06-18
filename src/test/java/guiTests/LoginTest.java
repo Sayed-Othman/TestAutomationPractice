@@ -18,8 +18,8 @@ public class LoginTest {
 	ProfilePage profilePage;
 	Home_Page homePage ;
 
-	@Test(description = " SignIn With valid Data")
-	@Description("When the User Enters valid data on the sign IN form and click continue Then he navigates to ProfilePage ")
+	@Test(description = "Login With valid data")
+	@Description("When the user enters valid data on the login form and click continue, Then the user navigates to the profile page")
 	@Epic("Web GUI")
 	public void TestUserLogin() {
 		homePage.NavigateToLoginPage();
