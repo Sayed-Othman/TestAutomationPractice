@@ -1,3 +1,0 @@
-[ReportManager] Window is already closed and driver object is null. @17-06-2021 00:06:08.0002 AM
-[ReportManager] Browser Action [closeCurrentWindow] successfully performed. @17-06-2021 00:06:08.0043 AM
-[ReportManager] Successfully created attachment [Video Recording - afterMethod] @17-06-2021 00:06:10.0872 AM
