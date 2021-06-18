@@ -1,26 +1,17 @@
 package open_cart_pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import com.shaft.gui.element.ElementActions;
 
-public class Registeration_Page {
-	
+public class Registration_Page {
 	private WebDriver driver; 
-	
-	
+
 	// Constructor
-	
-	public Registeration_Page (WebDriver driver) {
+	public Registration_Page (WebDriver driver) {
 		this.driver = driver ; 
 	}
-	
-	
-	
+
 	// Elements Locators
-	
-	
 	private By firstname_TextField = By.id("input-firstname");
 	private By lastname_TextField = By.id("input-lastname");
 	private By email_TextField = By.id("input-email");
@@ -29,32 +20,17 @@ public class Registeration_Page {
 	private By confirmPassword_TextField = By.id("input-confirm");
 	private By checkBox = By.name("agree");
 	private By continue_Button = By.xpath("//input[@value='Continue']");
-	
-	
-	
-	
+
 	//Actions
-	
-	
-	public void UserRegisteration (String firstName, String lastName, String email,String phone, String password) {
-		
-		
-	new	ElementActions(driver)
-	    .type(firstname_TextField,firstName)
+	public void UserRegistration (String firstName, String lastName, String email,String phone, String password) {	
+		new	ElementActions(driver)
+		.type(firstname_TextField,firstName)
 		.type(lastname_TextField, lastName)
 		.type(email_TextField , email)
-	    .type(phone_TextField , phone)
+		.type(phone_TextField , phone)
 		.type(password_TextField , password)
 		.type(confirmPassword_TextField , password)
 		.click(checkBox)	
-		.click(continue_Button);
-		
-		
-		
-	}
-	
-	
-	
-	
-	
+		.click(continue_Button);	
+	}	
 }
