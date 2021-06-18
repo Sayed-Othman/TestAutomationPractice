@@ -1,0 +1,21 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[guiTests.Rgistration.UserRegistration]
+Test Description:	[ SignUp With valid Data]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210618-205755", Target File: "\1624042695529_UserRegistration.gif"]. @18-06-2021 20:58:15.0664 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [My Account]. @18-06-2021 20:58:16.0656 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Register]. @18-06-2021 20:58:18.0645 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Sayed]. @18-06-2021 20:58:19.0837 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Othman]. @18-06-2021 20:58:20.0420 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [sayed1624042675501@gmail.com]. @18-06-2021 20:58:21.0082 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [123456]. @18-06-2021 20:58:21.0674 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [sa123456]. @18-06-2021 20:58:22.0298 PM
+[ReportManager] Element Action [type] successfully performed. With the following test data [sa123456]. @18-06-2021 20:58:22.0889 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [1]. @18-06-2021 20:58:23.0775 PM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Continue]. @18-06-2021 20:58:25.0977 PM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your Account Has Been Created!]. @18-06-2021 20:58:26.0383 PM
+[ReportManager] AssertEquals PASSED; Expected [Your Account Has Been Created!] and Actual [Your Account Has Been Created!]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @18-06-2021 20:58:26.0406 PM
+[ReportManager] Successfully created attachment [Video Recording - UserRegistration] @18-06-2021 20:58:32.0354 PM
+[ReportManager] Successfully created attachment [Animated Gif - UserRegistration] @18-06-2021 20:58:32.0607 PM
