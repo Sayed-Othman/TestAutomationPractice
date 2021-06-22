@@ -2,10 +2,12 @@ package guiTests;
 import java.util.Date;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.shaft.driver.DriverFactory;
 import com.shaft.gui.browser.BrowserActions;
+import com.shaft.tools.io.JSONFileManager;
 import com.shaft.validation.Assertions;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -18,6 +20,7 @@ public class Rgistration {
 	private  Home_Page homePage;
 	private  Confirmation_Page confirmationPage;
 	private  Registration_Page  registrationPage;
+	private JSONFileManager RegFileReader;
 	String email ="sayed"+ new Date().getTime() +"@gmail.com";
 
 	@Test(description = "Registration With valid Data")
@@ -26,11 +29,18 @@ public class Rgistration {
 	public void UserRegistration() {
 		homePage.NavigateToRegistrationPage();
 		registrationPage.UserRegistration
-		("Sayed", "Othman", email, "123456", "sa123456");
+		(RegFileReader.getTestData("firstName"),RegFileReader.getTestData("lastName"),
+				email,RegFileReader.getTestData("phone"),RegFileReader.getTestData("password"));
 
 		//Validation
 		Assertions.assertEquals("Your Account Has Been Created!",
 				confirmationPage.GetConfirmationMessege());
+	}
+	
+	
+	@BeforeClass
+	public void BeforeClass() {
+		RegFileReader = new JSONFileManager(System.getProperty("testDataFolderPath")+"Registration.json");
 	}
 
 	@BeforeMethod
