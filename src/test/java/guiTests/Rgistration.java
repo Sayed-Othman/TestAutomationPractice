@@ -28,8 +28,7 @@ public class Rgistration {
 	@Epic("Web GUI")
 	public void UserRegistration() {
 		homePage.NavigateToRegistrationPage();
-		registrationPage.UserRegistration
-		(RegFileReader.getTestData("firstName"),RegFileReader.getTestData("lastName"),
+		registrationPage.UserRegistration(RegFileReader.getTestData("firstName"),RegFileReader.getTestData("lastName"),
 				email,RegFileReader.getTestData("phone"),RegFileReader.getTestData("password"));
 
 		//Validation
